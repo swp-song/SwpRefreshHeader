@@ -56,11 +56,13 @@ pod 'SwpHeaderRefresh'
 ##### 使用：
 ```Objective-C
 
-#import <SwpRefreshHeader/SwpHeaderRefresh.h>
+
+#import "SwpHeaderRefresh.h" | #import <SwpRefreshHeader/SwpHeaderRefresh.h>
 
 // 1. 直接 设置 SwpHeaderRefresh.h 头文件
 self.demoTableView.mj_header = [SwpHeaderRefresh headerWithRefreshingTarget:self refreshingAction:@selector(headerRereshingData)];
 
+#import "SwpRefreshLayer.h" | #import <SwpRefreshHeader/SwpRefreshLayer.h>
 // 2. 重写 刷新头文件 集成 MJRefreshGifHeader 或 MJRefreshHeader 具体设置 请看Demo SwpHeaderRefresh.h 文件
 
 // 设置 刷新 四个 点 && 线的颜色
