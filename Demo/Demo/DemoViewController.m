@@ -59,7 +59,7 @@ static NSString * const kDemoCellID = @"kDemoCellID";
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kDemoCellID];
-    cell.textLabel.text   = [NSString stringWithFormat:@"swpRefreshLayer_%ld", (long)indexPath.row];
+    cell.textLabel.text   = [NSString stringWithFormat:@"SwpHeaderRefresh_%ld", (long)indexPath.row];
     return cell;
 }
 
