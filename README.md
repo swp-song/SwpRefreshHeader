@@ -42,7 +42,7 @@ SwpRefreshHeader 文件夹 导入 项目 中, 依赖 MJRefresh
 
 CocoaPods 导入:
 
-使用  CocoaPods 会自动 podMJRefresh
+使用  CocoaPods 会自动 pod MJRefresh
 
 pod searchSwpHeaderRefresh
 
